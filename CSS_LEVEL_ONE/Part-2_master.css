@@ -1,0 +1,40 @@
+/* selected tag{
+  property: value;
+} */
+
+/*  We can affect entire page at once also*/
+/* Here lets try to change backhround color of page. */
+
+/* body{
+  background-color: gray;
+} */
+
+/* Here We can insert some image too using ur(link) */
+
+body{
+  background: url(https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638889927/EducationHub/photos/pebble-beach.jpg);
+}
+
+/* Can we change color of some div ? Yes it can be done. */
+/* For border we need border-color: value;
+                      border-width: value; it can be medium,thin,thick,inherit.
+                      border-style:value;*/
+/* Furthermore we can also set border-width manually using (number)px */
+
+div{
+  background-color: blue;
+  border-color: orange;
+   border-width: medium; /*Or as per requirement like border-width: 10px; */
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+/* Now lets do something with span */
+
+span{
+  background: red;
+  color: black;
+}
