@@ -1,0 +1,36 @@
+/* selected tag{
+    property: value;
+} */
+
+/* There are some basic colors we can easily put the name of that */
+/* We can also use rgb codes of colors. */
+
+/* Here lets change the color of h1 */
+h1{
+  color: blue;
+}
+
+/* Lets try changing colors of the list elements using rgb */
+/* RGB stands for Red Green Blue and it have 3 parameters. */
+/* For rgb codes search color picker in google and
+   use the rgb code given there.*/
+
+li{
+  color: rgb(66,195,245);
+}
+
+/* We can also use HEX code to change colors.
+   Just copy HEX code from color picker*/
+p{
+  color: #800b53;
+}
+
+/* There is one more way to change color. */
+/* We can aslo use RGBA */
+/* As we know the last parameter alpha refers to the transparency and
+   Opaquesnes of text,number etc.*/
+/* alpha=1 tends to fully opaque and below that increases transparency. */
+h4{
+  color: rgba(66,195,245,0.5);
+}
+/* RGBA stands for Red Green Blue Alpha and have 4 parameters. */
