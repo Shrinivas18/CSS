@@ -1,0 +1,53 @@
+/* Selectors are used to target HTML elements that we want to style. */
+/* So far we were selecting HTML elements by their tag. */
+/* But we can also style subset or single element. */
+/* We can use "ids" to target single elements. */
+/* We can use classes to target group of elements. */
+/* We can then also use combinations of selector tags to target
+   certain combinations of elements.*/
+
+/*  we can differentiate between divisons using class */
+/* for classes we use '.' */
+.firstDiv{
+  color: red;
+}
+
+.secondDiv{
+  color: green;
+}
+
+/* On the other hand for id's we ise '#' */
+/* There are various properties text-decorationis one of them. */
+#singledout{
+  color: pink;
+  text-decoration: line-through;
+}
+
+/*
+
+*{
+color: black;
+}
+
+ */
+
+/* Here the above comment shows asterisk(*) worls it selects all an updates it except for id's */
+
+/* Suppose we want to update any list just next to any header or anything,we can write it as */
+/* One bright way to write border color,width and border is writen below */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* One of the CSS selector is descendants */
+/* suppose we want to affect the anchor tags inside list */
+li a{
+  color: red;
+}
+
+/* One more type of CSS selector to affect attributes */
+
+li a[href="https://www.facebook.com/login/"]{
+  color: orange;
+  border: 5px solid orange;
+}
