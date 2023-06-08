@@ -1,0 +1,12 @@
+/* Basic color change inside list, list with calss, list with id */
+li{
+  color: red;
+}
+
+.topitems{
+  color: blue;
+}
+
+#two{
+  border: 3px solid black;
+}
