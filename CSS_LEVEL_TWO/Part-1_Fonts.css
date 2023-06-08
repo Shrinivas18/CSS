@@ -1,0 +1,36 @@
+/* By default the font is The Times New Roman lets change it to Ariel. */
+/* We can use font-family to change the font type. */
+h1{
+  font-family:"Arial";
+}
+
+p{
+  font-family: monospace;
+}
+
+/* Now lets change font size */
+
+body{
+  font-size: 20px;
+}
+
+/* Suppose we actually dont know the actual default size of the Fonts
+   and want to establish some relationship of first text to another? */
+/* 'em' comes in handy while establishing relationship between multiple texts */
+
+#two{
+  font-size: 2.0em;
+}
+/* Now above the font-size of <p> with id='two' is twice the size of <p> having 20px font-size. */
+
+/* We can also add style and weight to our fonts. */
+p{
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Also text-alignment can also be set */
+
+h1{
+  text-align: center;
+}
