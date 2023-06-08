@@ -1,0 +1,36 @@
+h1{
+  text-align: center;
+  font-family: 'AlphabuttsRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+  height: 200px;
+  width: 100px;
+  border: 6px solid white;
+}
+
+#first{
+  background-color: #ffcdb2;
+}
+
+#second{
+  background-color: #ffb4a2;
+}
+
+#third{
+  background-color: #e5989b;
+}
+
+#fourth{
+  background-color: #b5838d;
+}
+
+#fifth{
+  background-color: #6d6875;
+}
