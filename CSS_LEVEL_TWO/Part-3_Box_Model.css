@@ -1,0 +1,46 @@
+/* Supppose we want to display the images side by side */
+.column{
+
+  float: left;
+  width: 40%;
+  padding: 5px;
+  margin: auto;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+  margin: auto;
+
+}
+
+h1{
+  color: purple;
+}
+
+
+body{
+  background: #9ff5ec;
+}
+
+.header{
+  margin:auto;
+}
+
+#top{
+  border: 4px solid blue;
+  width: 25%;
+  text-align:center;
+  /* top,right,bottom,left */
+  /* i.e, we have to pass margin in this format or else use defaults */
+  margin:inherit;
+
+}
+
+#bottom{
+  border: 4px solid red;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
